@@ -786,21 +786,87 @@
             <div class="border rounded text-center p-1">
               <div class="bg-white rounded text-center p-5">
                 <h4 class="mb-4">
-                  Subscribe Our
+                  Subscribe to Our
                   <span class="text-primary text-uppercase">Newsletter</span>
                 </h4>
                 <div class="position-relative mx-auto" style="max-width: 400px">
-                  <input
-                    class="form-control w-100 py-3 ps-4 pe-5"
-                    type="text"
-                    placeholder="Enter your email"
-                  />
-                  <button
-                    type="button"
-                    class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"
+                  <form
+                    action="https://gmail.us13.list-manage.com/subscribe/post?u=1dbefd00002c1252129b4aaa9&amp;id=e92555e905&amp;f_id=00fe03e9f0"
+                    method="post"
+                    id="mc-embedded-subscribe-form"
+                    name="mc-embedded-subscribe-form"
+                    class="validate"
+                    target="_blank"
+                    novalidate
                   >
-                    Submit
-                  </button>
+                    <input
+                      class="form-control w-100 py-3 ps-4 pe-5"
+                      type="email"
+                      name="EMAIL"
+                      id="mce-EMAIL"
+                      placeholder="Enter your email"
+                      required
+                    />
+                    <div id="mce-responses" class="clear foot">
+                      <div
+                        class="response"
+                        id="mce-error-response"
+                        style="display: none"
+                      ></div>
+                      <div
+                        class="response"
+                        id="mce-success-response"
+                        style="display: none; color: green"
+                      ></div>
+                    </div>
+                    <div
+                      aria-hidden="true"
+                      style="position: absolute; left: -5000px"
+                    >
+                      <input
+                        type="text"
+                        name="b_1dbefd00002c1252129b4aaa9_e92555e905"
+                        tabindex="-1"
+                        value=""
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"
+                      id="mc-embedded-subscribe"
+                      name="subscribe"
+                    >
+                      Subscribe
+                    </button>
+                  </form>
+                  <p style="margin: 0px auto; margin-top: 10px">
+                    <a
+                      href="http://eepurl.com/iSMZg6"
+                      title="Mailchimp - email marketing made easy and fun"
+                    >
+                      <span
+                        style="
+                          display: inline-block;
+                          background-color: transparent;
+                          border-radius: 4px;
+                        "
+                      >
+                        <img
+                          class="refferal_badge"
+                          src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                          alt="Intuit Mailchimp"
+                          style="
+                            width: 220px;
+                            height: 40px;
+                            display: flex;
+                            padding: 2px 0px;
+                            justify-content: center;
+                            align-items: center;
+                          "
+                        />
+                      </span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -937,5 +1003,29 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "ADDRESS";
+        ftypes[3] = "address";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+        fnames[5] = "BIRTHDAY";
+        ftypes[5] = "birthday";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
   </body>
 </html>
