@@ -38,11 +38,11 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/primecode-solutions-website.git
+   git clone https://github.com/Fredasante/primecode-solutions.git
    ```
 2. **Navigate to the project directory**:
    ```sh
-   cd primecode-solutions-website
+   cd primecode-solutions
    ```
 3. **Open `index.html` in your web browser** to view the site locally.
 
